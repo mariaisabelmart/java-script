@@ -1,4 +1,4 @@
-//Arrow Function, é uma função escrita em forma resumida
+//ARROW FUNCTION: é uma função escrita em forma resumida
 
 const filme = [
     {id:1, nomeFilme: 'Matrix'},

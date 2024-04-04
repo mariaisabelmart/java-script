@@ -1,4 +1,4 @@
-//o constructor é outra forma de criar objetos, mas com código menor, sem precisar adicionar um nome ao objeto nem return
+//o CONSTRUCTOR é outra forma de criar objetos, mas com código menor, sem precisar adicionar um nome ao objeto nem return
 
 function CriarLivros(titulo, autor, paginas) {
     this.tituloLivro = titulo;
@@ -6,6 +6,6 @@ function CriarLivros(titulo, autor, paginas) {
     this.paginasLivro = paginas
 }
 
-const book1 = new CriarLivros('Tal Coisa', 'Ciclano', 100);
+const book1 = new CriarLivros('Moby Dick', 'Herman Melville', 737);
 
 console.log(book1)

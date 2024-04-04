@@ -1,5 +1,5 @@
-//os objetos são como um conjunto de variáveis agrupadas, quando elas dizem respeito a um mesmo item. O factory é como um conjunto de objetos agrupados, quando eles dizem respeito a um mesmo tema também.
-//Factory é uma função para criar objetos
+//os OBJETOS são como um conjunto de variáveis agrupadas, quando elas dizem respeito a um mesmo item. O FACTORY é como um conjunto de objetos agrupados, quando eles dizem respeito a um mesmo tema também.
+//FACTORY é uma função para criar objetos
 
 function criarLivro(titulo,autor,paginas) {
     const livro = {
@@ -10,8 +10,8 @@ function criarLivro(titulo,autor,paginas) {
     return livro 
 }
 
-let primLivro = criarLivro('Tal e Tal', 'Fulana', 100);
-let segLivro = criarLivro('Coisa e Coisa', 'Ciclano', 200);
+let primLivro = criarLivro('Moby Dick', 'Herman Melville', 737);
+let segLivro = criarLivro('Flores para Algernon', 'Daniel Keyes', 311);
 
 console.log(primLivro);
 console.log(segLivro);
@@ -19,9 +19,9 @@ console.log(segLivro);
 
 //adicionando propriedades a um objeto já existente
 
-primLivro.cor = 'vermelho';
+primLivro.cor = 'white';
 
 //alterando propriedade
-primLivro.paginasLivro = 550;
+primLivro.paginasLivro = 700;
 
 console.log(primLivro)

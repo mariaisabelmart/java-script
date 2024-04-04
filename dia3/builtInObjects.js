@@ -1,4 +1,4 @@
-//built in Objects são objetos já construídos no JS. É possível encontrá-los nas documentações pesquisando por eles. 
+//BUILT IN OBJECTS são objetos já construídos no JS. É possível encontrá-los nas documentações pesquisando por eles. 
 
 
 //ex.: Math
@@ -22,4 +22,4 @@ console.log(mensagem.length); //quantidade de caracteres na mensagem
 
 console.log(mensagem.includes('is')); //mensagem inclui "is"? False
 
-console.log(mensagem.endsWith('ria')); //mensagem termina com Maria? True
+console.log(mensagem.endsWith('Maria')); //mensagem termina com Maria? True

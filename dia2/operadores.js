@@ -1,4 +1,4 @@
-// Operadores Aritméticos: + - * / % **
+// OPERADORES ARITMÉTICOS: + - * / % **
 
 let num1 = 3;
 let num2 = 2;
@@ -30,12 +30,12 @@ console.log(--total);
 
 
 
-//Operadores de Atribuição: += -= *= /=
+//OPERADORES DE ATRIBUIÇÃO: += -= *= /=
 console.log(num1 += 20); //23 
 
 
 
-//Operadores de Comparação: < > <= >= == === !==
+//OPERADORES DE COMPARAÇÃO: < > <= >= == === !==
 console.log(1 > 0);
 console.log(1 < 0);
 console.log(1 >= 3);
@@ -46,7 +46,7 @@ console.log(1 !== '1');
 
 
 
-//Operadores ternários ?:
+//OPERADORES TERNÁRIOS ?:
 let motorista = 90;
 let velocidade = motorista > 110 ? 'Acima' : 'Abaixo';
 console.log(velocidade);
@@ -55,7 +55,7 @@ console.log(velocidade);
 
 
 
-//Operadores Lógicos: and(&&), or(||), not(!)
+//OPERADORES LÓGICOS: and(&&), or(||), not(!)
 let temIdadeMinima = true
 let temTituloEleitor = false
 

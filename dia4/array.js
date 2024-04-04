@@ -1,4 +1,4 @@
-//array: guarda vários valores
+//ARRAY: guarda vários valores
 
 const friends = ['Marcos', 'Maria', 'Ana'];
 const num = [1,2,3,4,true];

@@ -1,4 +1,4 @@
-//Adicionando itens na Array:
+//ADICIONANDO ITENS NA ARRAY:
 const numeros = [7,8,9];
 
 //No final:
@@ -17,7 +17,7 @@ console.log(numeros);
 
 
 
-//Procurando um valor na Array Primitiva:
+//PROCURANDO VALOR NA ARRAY PRIMITIVA:
 const valores = [6,7,8,9];
 
 //retornando a posição do 8(-1 se não existir):
@@ -29,7 +29,7 @@ console.log(valores.includes(5));
 
 
 
-//Procurando valores na Array de referência:
+//PROCURANDO VALOR NA ARRAY DE REFERÊNCIA:
 //obs: Array referência é quando há várias informações sobre um mesmo item dentro da array, passando a ser referências.
 
 const filmesFav = [
@@ -48,7 +48,7 @@ console.log(filmesFav.find(function(filme){
 
 
 
-//Removendo valores da array
+//REMOVENDO VALORES DA ARRAY:
 const nums = [5,6,7,8,9];
 
 //Do final:
@@ -69,7 +69,7 @@ console.log(nums);//6,8
 
 
 
-//Limpando a array: obs: array let para poder ser alterada
+//LIMPANDO A ARRAY: obs: array let para poder ser alterada
 
 //1ª forma: falar que a array é vazia
 let array1 = [5,6,7,8];
@@ -92,7 +92,7 @@ console.log(array3);
 
 
 
-//Concatenar array
+//CONCATENAR ARRAY:
 let numeros2 = [1,2,3];
 let letras = ['a','b','c'];
 
@@ -102,14 +102,14 @@ console.log(todos);
 
 
 
-//Dividir array
+//DIVIDIR ARRAY:
 parte = todos.slice(2,4); //pegar da posição 2, até o 4º item da array
 console.log(parte);
 
 
 
 
-//Trocar as vírgulas da array por algo (pode ser utilizado simplesmente para transformar uma array em string) - (Join)
+//TROCAR AS VÍRGULAS da array por algo (pode ser utilizado simplesmente para transformar uma array em string) - (Join)
 
 let clientes = ['Andre', 'Maria', 'Marcel'];
 
@@ -127,7 +127,7 @@ console.log(vendedoresJoin);
 
 
 
-//Ordenando uma array
+//ORDENANDO ARRAY:
 let funcionarios = ['Andre', 'Maria', 'João', 'Arnaldo'];
 
 funcionarios.sort()

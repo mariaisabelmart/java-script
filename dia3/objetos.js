@@ -1,6 +1,6 @@
 //POO: programação orientada a objetos
 
-//Objetos: possuem um conjunto de propriedades (sobre um mesmo item) agrupadas, em vez de criar diversas variáveis separadas. Possuem propriedades (o que tem nele) e métodos (o que podemos fazer com ele)
+//OBJETOS: possuem um conjunto de propriedades (sobre um mesmo item) agrupadas, em vez de criar diversas variáveis separadas. Possuem propriedades (o que tem nele) e métodos (o que podemos fazer com ele)
 
 //Pode ser let ou const
 
@@ -19,13 +19,13 @@ console.log(livro) //mostrar objeto
 
 
 
-//usar função dentro de objeto: quando uma função está ligada a um objeto, é possível colocá-la dentro dele
+//USAR FUNÇÃO DENTRO DE OBJETO: quando uma função está ligada a um objeto, é possível colocá-la dentro dele
 //Geralmente é colocada no final
 
 const livro2 = {
-    titulo: 'taltal',
-    autor: 'fulano',
-    paginas: 100,
+    titulo: 'Flores para Algernon',
+    autor: 'Daniel Keyes',
+    paginas: 311,
     partes: {
         primeiraParte: 'Parte 01',
         segundaParte: 'Parte 02'

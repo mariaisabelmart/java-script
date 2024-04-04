@@ -1,6 +1,6 @@
-//Condicionais:
+//CONDICIONAIS:
  
-//if else (se senão)
+//IF ELSE (se senão)
 
  let velocMax = 110;
  let velocMin = 55;
@@ -18,7 +18,7 @@
 
 
 
-//Switch Case (escolha caso)
+//SWITCH CASE (escolha caso)
 //escolha na variável. Caso seja "x" faça isso, caso seja "y" faça aquilo. 
 //o break é para parar assim que encontrar o valor 
 //o default é o que fará se não tiver o valor procurado

@@ -1,6 +1,6 @@
 //colocando texto no HTML via JS
 
-let comidaFavorita = 'sorvete'
+let comidaFavorita = 'Pudim'
 
 document.getElementById('texto').innerHTML = comidaFavorita
 

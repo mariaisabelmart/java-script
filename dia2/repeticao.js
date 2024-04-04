@@ -1,6 +1,6 @@
-//repetição
+//REPETIÇÃO:
 
-//for (para): para i começando no 0, enquanto i for menor ou igual a 10, acrescente +1 ao i
+//FOR (para): para i começando no 0, enquanto i for menor ou igual a 10, acrescente +1 ao i
 //A variável i é iniciada dentro do loop
 
 for (i = 0; i <= 10; i++) {
@@ -16,7 +16,7 @@ for (j = 0; j <= 10; j++) {
 
 
 
-//while (enquanto):
+//WHILE (enquanto):
 //A variável é iniciada fora do loop, possibilitando reutilizar variável
 //o loop verifica a condição antes de fazer
 p = 0;
@@ -29,7 +29,7 @@ while (p <= 10) {
 
 
 
-//do while (faça enquanto):
+//DO WHILE (faça enquanto):
 //A variável também é iniciada fora do loop
 //o loop verifica a condição depois de fazer
 
@@ -43,7 +43,7 @@ do {
 
 
 
-//for in loop (for com objeto):
+//FOR IN LOOP (for com objeto):
 //a variável contador vai percorrer as propriedades dentro de um objeto
 
 const meuCarro = {
@@ -59,7 +59,7 @@ for (let b in meuCarro) {
 
 
 
-//for of loop (for com array):
+//fOR OF LOOP (for com array):
 //troca o in pelo of. Isso faz com que o loop entenda que é para mostrar não o índice de, mas dentro de. 
 
 const amigos = ['Ana', 'Maria', 'José'];
@@ -71,7 +71,7 @@ for (let m of amigos){
 
 
 
-//Usando break para parar um loop
+//Usando BREAK PARA PARAR UM LOOP
 
 let x = 0;
 

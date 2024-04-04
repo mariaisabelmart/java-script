@@ -1,4 +1,4 @@
-//usar template é utilizar crase em vez de aspas para que o conteúdo apareça da forma que escreveu, e ${} para variáveis
+//usar TEMPLATE é utilizar crase em vez de aspas para que o conteúdo apareça da forma que escreveu, e ${} para variáveis
 
 const email = 'Oi José, \nA reunião está confirmada. \nMaria.';
 //aqui é necessário utilizar \n para quebrar linhas
