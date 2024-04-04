@@ -1,0 +1,81 @@
+/*Calculadora Simples*/
+@charset "UTF-8";
+
+body {
+    background: rgb(95, 145, 168);
+    width: 100vw;
+    height: 100vh;
+}
+
+.forma {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(9, 38, 58);
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.164);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.forma h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+    text-transform: uppercase;
+}
+
+input[type="text"] {
+    height: 40px;
+    margin: 5px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+
+::placeholder {
+    color: rgb(219, 218, 218);
+    font-size: 20px;
+}
+
+button {
+    box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.404);
+    background-color: rgb(8, 132, 214);
+    border: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(4, 84, 121);
+    cursor: pointer;
+}
+
+div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    letter-spacing: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+
+
+

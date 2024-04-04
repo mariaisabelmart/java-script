@@ -1,0 +1,21 @@
+<!--Projeto calculadora simples-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="forma">
+        <h1>Calculadora Simples</h1>
+        <input type="text" name="num1" id="inum1" placeholder="Primeiro valor" autocomplete="off"><br>
+        <input type="text" name="num2" id="inum2" placeholder="Segundo valor" autocomplete="off">
+        <p><input checked type="radio" name="radiob" id="iradio1" value="adicao">+ <input type="radio" name="radiob" id="iradio2" value="subtracao">- <input type="radio" name="radiob" id="iradio3" value="divisao">/ <input type="radio" name="radiob" id="iradio4" value="multiplicacao">*</p> <!--radio buttom (lembrando que todos devem ter o mesmo nome para funcionar)-->
+        <button onclick="resultado()" type="button">Calcular</button> <!--chamar função para calcular-->
+        <h2 id="areaResultado"></h2>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
