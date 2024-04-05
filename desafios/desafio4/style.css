@@ -48,14 +48,59 @@ section > div {
     flex: 3;
 }
 
-input[type="text"] {
+input[type="number"] {
     font-family: inherit, Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: rgb(235, 240, 241);
     font-size: 0.7em;
     border: 1px solid lightgray;
     border-radius: 5px;
-    padding: 8px 0px 8px 1px;
+    padding: 8px 0px 8px 8px;
     box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.356);
 }
 
-/*finalizar CSS 2º espaço*/
+input[type="number"]::placeholder {
+    font-size: 0.4;
+    color: rgb(202, 193, 193);
+}
+
+.espPercentual {
+    display: flex;
+    justify-content: space-between;
+}
+
+.espTotal {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.range { /*configurando a barra do range*/
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    margin-top: 12px;
+    background: rgb(226, 229, 230);
+    border-radius: 3px;
+    outline-color: #77a891;
+}
+
+.range::-webkit-slider-thumb { /*configurando a bolinha do range*/
+    -webkit-appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #97cfcd;
+    cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #97cfcd;;
+    cursor: pointer;
+    border: 0px;
+}
+
+.range::-moz-focus-outer {
+    border: 0px
+}

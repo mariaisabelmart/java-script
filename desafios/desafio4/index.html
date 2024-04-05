@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <main oninput="update()"> <!--oninput aqui para que quando alterar qualquer uma das 3 variáveis que estão dentro do main, chame a função do JS-->
         <h1>Calculadora de Gorjeta</h1>
         <section>
             <div class="espConta">
                 <label for="valorConta">Valor</label>
-                <input type="text" name="valorTotal" id="ivalorTotal" placeholder="Valor total" autocomplete="off">
+                <input type="number" name="valorTotal" id="ivalorTotal" placeholder="Valor total" autocomplete="off">
             </div>
             <div class="espPercentual">
                 <label for="porcentagem">Selecione a gorjeta</label>
                 <span id="percGorjeta">0%</span>
             </div>
             <input type="range" name="barraPerc" id="ibarraPerc" class="range" value="0">
-            <div class="espGorjeta"> 
+            <div class="espPercentual"> 
                 <span>Gorjeta</span>
                 <span id="valorGorjeta"></span>
             </div>
@@ -33,13 +33,13 @@
 
         <section>
             <div>
-                <div class="espDivisao">
+                <div class="espPercentual">
                     <label for="divisao">Dividir entre</label>
-                    <span id="valorDivisao">1</span>
+                    <span id="valorDivisao">1 pessoa</span>
                 </div>
                 <input type="range" name="divisao" id="idivisao" min="1" max="10" value="1" class="range">
             </div>
-            <div class="espContaCada">
+            <div class="espPercentual">
                 <span>Valor para cada</span>
                 <span id="valorCada"></span>
             </div>
