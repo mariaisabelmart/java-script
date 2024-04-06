@@ -1,2 +1,2 @@
 # java_script
- Aulas de JavaScript
+ Aulas do curso de JavaScript da Udemy realizado em 04/2024.
