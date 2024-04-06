@@ -24,6 +24,7 @@ body {
     color: var(--cor-cinza-1);
     line-height: 1.5;
     font-size: 0.875em;
+    max-height: 100vh;
 }
 
 h1 {
