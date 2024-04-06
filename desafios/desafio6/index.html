@@ -1,0 +1,36 @@
+<!--Aplicação que gera um número aleatório, e o usuário tenta descobrir o valor-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="inicio">
+            <h1>Adivinhe o Número <br> 1 - 100</h1>
+        </section>
+
+        <section id="areaDeJogo">
+            <div>
+                <h2 id="textoOutput">Seu palpite:</h2>
+                <input type="number" name="numberInput" id="inumberInput" min="1" max="100">
+            </div>
+            <div class="status">
+                <div class="info">
+                    <p>Número de tentativas: </p>
+                    <span id="tentativas">0</span>
+                </div>
+                <div class="info">
+                    <p>Seus palpites: </p>
+                    <span id="palpites">0</span>
+                </div>
+            </div>
+            <button id="novoJogo">NOVO JOGO</button>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
