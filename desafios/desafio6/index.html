@@ -7,28 +7,28 @@
     <title>Adivinhe o número</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="iniciar()"> <!--realizar função assim que a pág. carregar-->
     <main>
         <section id="inicio">
-            <h1>Adivinhe o Número <br> 1 - 100</h1>
+            <h1>Adivinhe o Número <br> 0 - 100</h1>
         </section>
 
         <section id="areaDeJogo">
             <div>
                 <h2 id="textoOutput">Seu palpite:</h2>
-                <input type="number" name="numberInput" id="inumberInput" min="1" max="100">
+                <input type="number" name="numberInput" id="inumberInput" min="0" max="100" onchange="compararNums()">
             </div>
             <div class="status">
                 <div class="info">
                     <p>Número de tentativas: </p>
-                    <span id="tentativas">0</span>
+                    <span id="tentativas"></span>
                 </div>
                 <div class="info">
                     <p>Seus palpites: </p>
-                    <span id="palpites">0</span>
+                    <span id="palpites"></span>
                 </div>
             </div>
-            <button id="novoJogo">NOVO JOGO</button>
+            <button id="novoJogo" onclick="novoJogo()">NOVO JOGO</button>
         </section>
     </main>
     <script src="index.js"></script>
